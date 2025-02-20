@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+    <producto>
+        <id>1</id>
+        <nombre>Smartphone</nombre>
+        <descripcion>Teléfono móvil de última generación</descripcion>
+        <precio>500.00</precio>
+        <categoria>Electrónica</categoria>
+    </producto>
+    <producto>
+        <id>2</id>
+        <nombre>Portátil</nombre>
+        <descripcion>Portátil de alto rendimiento</descripcion>
+        <precio>1200.00</precio>
+        <categoria>Electrónica</categoria>
+    </producto>
+    <producto>
+        <id>3</id>
+        <nombre>Cámara</nombre>
+        <descripcion>Cámara réflex digital</descripcion>
+        <precio>800.00</precio>
+        <categoria>Fotografía</categoria>
+    </producto>
+</productos>

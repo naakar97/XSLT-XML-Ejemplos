@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FacturaE xmlns="http://www.facturae.es/Facturae/2007">
+    <DatosGenerales>
+        <FechaExpedicionFacturaEmisor>2025-02-19</FechaExpedicionFacturaEmisor>
+        <NumeroFactura>F12345</NumeroFactura>
+        <TipoFactura>Factura</TipoFactura>
+        <TotalFactura>150.00</TotalFactura>
+    </DatosGenerales>
+
+    <Emisor>
+        <Nombre>Empresa XYZ S.L.</Nombre>
+        <NIF>ESB12345678</NIF>
+        <Direccion>Calle Ficticia, 123</Direccion>
+        <Ciudad>Madrid</Ciudad>
+        <CodigoPostal>28001</CodigoPostal>
+    </Emisor>
+
+    <Receptor>
+        <Nombre>Juan Pérez</Nombre>
+        <NIF>ESY98765432</NIF>
+        <Direccion>Calle Real, 45</Direccion>
+        <Ciudad>Barcelona</Ciudad>
+        <CodigoPostal>08001</CodigoPostal>
+    </Receptor>
+
+    <Productos>
+        <Producto>
+            <Descripcion>Servicio de consultoría</Descripcion>
+            <Cantidad>1</Cantidad>
+            <PrecioUnitario>100.00</PrecioUnitario>
+            <Total>100.00</Total>
+        </Producto>
+        <Producto>
+            <Descripcion>Gastos de envío</Descripcion>
+            <Cantidad>1</Cantidad>
+            <PrecioUnitario>50.00</PrecioUnitario>
+            <Total>50.00</Total>
+        </Producto>
+    </Productos>
+</FacturaE>
